@@ -167,8 +167,7 @@ section .title::after{
     display: flex;
     /* background: url("images/banner.jpg") no-repeat center;
      */
-     /* change to black at the end */
-     background: darkgray;
+     background: lightgray;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -216,9 +215,6 @@ section .title::after{
 .about .title::after{
     content: "who i am";
 }
-.abouttext{
-    font-size: 25px;
-}
 .about .about-content .left{
     width: 45%;
 }
@@ -232,7 +228,7 @@ section .title::after{
     width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -246,8 +242,7 @@ section .title::after{
     display: inline-block;
     background: crimson;
     color: #fff;
-    /* button */
-    font-size: 15px; 
+    font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
